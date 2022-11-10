@@ -3,7 +3,7 @@ import DisplayComponent from './components/DisplayComponent';
 import BtnComponent from './components/BtnComponent';
 import './App.css';
 
-const  App = () => {
+function App() {
   const [time, setTime] = useState({ms:0, s:0, m:0, h:0});
   const[interv, setInterv] = useState();
   const[status, setStatus] = useState(0);
