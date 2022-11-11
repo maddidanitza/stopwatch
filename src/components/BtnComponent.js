@@ -14,7 +14,15 @@ function BtnComponent(props) {
               onClick={props.stop}><b>Stop</b></button>
               <button className="stopwatch-btn stopwatch-btn-yel"
               onClick={props.reset}><b>Reset</b></button>
-          </div> : ""
+          </div>: ""
+        }
+        {(props.status === 2)?
+          <div>
+              <button className="stopwatch-btn stopwatch-btn-red"
+              onClick={props.start}><b>Resume</b></button>
+              <button className="stopwatch-btn stopwatch-btn-yel"
+              onClick={props.reset}><b>Reset</b></button>
+          </div>: ""
         }
     </div>
   );

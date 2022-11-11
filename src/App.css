@@ -46,10 +46,12 @@ body {
   border: none;
   padding: 12px 20px;
   font-size: 16px;
+  height: 100px;
   text-transform: uppercase;
-  width: 150px;
+  width: 100px;
   transition: background 1s;
   cursor: pointer;
+  border-radius: 50px;
 }
 .stopwatch .stopwatch-btn-red{
   border: 2px solid #C85454;
