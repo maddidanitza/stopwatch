@@ -3,7 +3,7 @@ import React from 'react';
 
 function DisplayComponent({time}) {
   const h =() =>{
-    if(time.h === 0){
+    if(time.h <= 0){
       return '';
     }else{
       return <span>{(time.h >= 10)? time.h : "0"+ time.h}</span>;

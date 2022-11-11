@@ -38,7 +38,19 @@ body {
   border-radius: 5px;
   width: 70px;
 }
-
+.stopwatch input{
+  background:#6a7575;
+  color: #fff;
+  display: inline-block;
+  font-family: monospace;
+  font-size: 22px;
+  padding: 20px;
+  border-radius: 5px;
+  width: 70px;
+  height:50px;
+  border: none;
+  margin-right: 10px;
+}
 .stopwatch .stopwatch-btn {
   background: #fff;
   margin-top: 30px;

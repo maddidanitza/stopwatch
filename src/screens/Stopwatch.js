@@ -43,7 +43,7 @@ export const Stopwatch = () => {
       <div className="clock-holder">
          <div className="stopwatch">
            <DisplayComponent time={time}/>
-           <BtnComponent status={status} stop={stop} reset={reset} start={start}/>
+           <BtnComponent status={status} stop={stop} reset={reset} resume={start} start={start}/>
          </div>
     </div>
   );
